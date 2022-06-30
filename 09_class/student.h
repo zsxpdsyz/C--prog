@@ -27,7 +27,7 @@ public:
 
 Student::Student(string inpName, string inpSuid, int inpUnits)
 {
-    name = inpName;
+    this->name = inpName;
     suid = inpSuid;
     numUnits = inpUnits;
 }
@@ -46,6 +46,17 @@ int Student::getUnits() {
 
 bool operator== (Student left, Student right) {
     return left.getSuid() == right.getSuid();
+}
+
+string Student::classLevel() {
+    if(numUnits <= 45)
+        return "freshman";
+    else if(numUnits <= 90)
+        return "sophomore";
+    else if(numUnits <= 135)
+        return "junior";
+    else
+        return "senior";
 }
 
 Student::~Student()
