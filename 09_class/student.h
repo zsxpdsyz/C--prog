@@ -17,6 +17,10 @@ public:
     string getSuid();
     int getUnits();
     string classLevel();
+    // 操作符重载默认就有this指针，因此只需要一个参数即可
+    bool operator== (Student right) {
+        return this->getSuid() == right.getSuid();
+    }
 
     ~Student();
     // 双目运算符应该定义在类外，因为其参数中默认包含了this指针，因此会报错参数过多
@@ -44,9 +48,9 @@ int Student::getUnits() {
     return numUnits;
 }
 
-bool operator== (Student left, Student right) {
-    return left.getSuid() == right.getSuid();
-}
+// bool operator== (Student left, Student right) {
+//     return left.getSuid() == right.getSuid();
+// }
 
 string Student::classLevel() {
     if(numUnits <= 45)
