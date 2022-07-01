@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun 30 18:49:22 2022
+# Make data base, printed on Fri Jul  1 21:17:41 2022
 
 # Variables
 
@@ -57,7 +57,7 @@ LC_NAME = zh_CN.UTF-8
 # environment
 VSCODE_CWD = /home/zhangsx
 # environment
-SSH_CONNECTION = 10.250.226.37 62958 10.249.41.155 22
+SSH_CONNECTION = 10.250.226.37 55912 10.249.41.155 22
 # environment
 PATH = /home/zhangsx/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/zhangsx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
@@ -79,7 +79,7 @@ PWD = /home/zhangsx/C++prog
 # environment
 QT_QPA_PLATFORMTHEME = appmenu-qt5
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1013/vscode-ipc-2ade943e-d49d-4f90-8e56-01db6e21b4e8.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1013/vscode-ipc-3cffa115-0c72-40ee-8c8d-4c86b4d4be6a.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -107,7 +107,7 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 5
 # environment
-XDG_SESSION_ID = 14820
+XDG_SESSION_ID = 15092
 # environment
 USER = zhangsx
 # environment
@@ -129,7 +129,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 10.250.226.37 62958 22
+SSH_CLIENT = 10.250.226.37 55912 22
 # environment
 MAIL = /var/mail/zhangsx
 # automatic
@@ -235,6 +235,6 @@ GNUmakefile:
 # strcache performance: lookups = 27 / hit rate = 11%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Thu Jun 30 18:49:22 2022
+# Finished Make data base on Fri Jul  1 21:17:41 2022
 
  

@@ -8,7 +8,7 @@ using std::string;
 
 int main() {
     Student s("Ali", "mike", 135);
-    Student s1("zhang", "mike", 135);
+    Student s1("zhang", "mike", 64);
 
     cout << s.getName() << endl;
 
