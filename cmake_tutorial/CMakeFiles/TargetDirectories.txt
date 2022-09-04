@@ -1,0 +1,5 @@
+/home/zhangsx/C++prog/cmake_tutorial/CMakeFiles/rebuild_cache.dir
+/home/zhangsx/C++prog/cmake_tutorial/CMakeFiles/edit_cache.dir
+/home/zhangsx/C++prog/cmake_tutorial/bin/CMakeFiles/rebuild_cache.dir
+/home/zhangsx/C++prog/cmake_tutorial/bin/CMakeFiles/edit_cache.dir
+/home/zhangsx/C++prog/cmake_tutorial/bin/CMakeFiles/hello.dir

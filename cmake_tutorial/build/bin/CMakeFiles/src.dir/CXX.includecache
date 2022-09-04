@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangsx/C++prog/cmake_tutorial/src/IterAdapter.cpp
+iostream
+-
+fstream
+-
+numeric
+-
+algorithm
+-
+iterator
+-
+vector
+-
+
+/home/zhangsx/C++prog/cmake_tutorial/src/multiThread.cpp
+thread
+-
+iostream
+-
+vector
+-
+mutex
+-
+
