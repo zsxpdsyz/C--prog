@@ -1,0 +1,16 @@
+V_a#CMD = V_a
+V_alias#CMD = V_alias
+V_d#CMD = V_d
+V_u#CMD = V_u
+V_inv_a#CMD = V_inv_a
+V_inv_alias#CMD = V_inv_alias
+V_inv_d#CMD = V_inv_d
+V_inv_u#CMD = V_inv_u
+V_inv_any#CMD = V_inv_any
+A_a#CMD = A_a
+A_alias#CMD = A_alias
+A_d#CMD = A_d
+A_inv_a#CMD = A_inv_a
+A_inv_alias#CMD = A_inv_alias
+A_inv_d#CMD = A_inv_d
+A_inv_any#CMD = A_inv_any
